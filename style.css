@@ -28,7 +28,6 @@ header .title {
 	position: relative;
 	padding-bottom: 50%;
 	padding-top: 25px;
-	height: 0;
 }
 .videoWrapper iframe {
 	position: absolute;
