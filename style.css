@@ -59,3 +59,23 @@ header .title {
     margin-right: auto;
     width: 30px;
 }
+
+.imgs {
+  height: 10vw;
+  margin:0 auto;
+  display:block;
+}
+
+.img {
+  height: 8vw;
+  margin:0 auto;
+  display:block;
+  margin-top: 20px;
+}
+
+.imgin {
+  position:relative;
+  margin-left: 44%;
+  margin-right: 44%;
+  margin-top: 10px;
+}

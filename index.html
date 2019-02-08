@@ -31,23 +31,31 @@
       </div>
     </article>
 
-    <div style="margin:0 auto; display:block; padding-top:20px; padding-left:44.5%; padding-right:44.5%;">
-      <a id="kakao-link-btn" href="javascript:;" style="width: 10vw; height:10vw;">
-      <img src="kakao.png" style="height: 10vw; margin:0 auto; display:block;"/>
-      </a>
-        <script type='text/javascript'>
-            Kakao.init('52a207250c3cb627110b9db18df5d3e1');
-            Kakao.Link.createCustomButton({
-              container: '#kakao-link-btn',
-              templateId: 14674,
-              templateArgs: {
-                'title': 'DAMG CREATOR Acceleration',
-                'description': '함께 하실래요?'
-              }
-            });
-          //]]>
-        </script>
-      </div>
+    <div style="padding-top:20px;">
+      <img src="doc_down.png" class="img">
+        <div class="imgin">
+          <a href="DAMG Creator Acceleration.doc" download>
+            <img src="doc_file.png" alt="신청서 다운로드" class="imgs">
+          </a>
+        </div>
+      <img src="kakao_down.png" class="img">
+        <div class="imgin">
+          <a id="kakao-link-btn" href="javascript:;" class="imgs">
+            <img src="kakao.png" class="imgs"/>
+          </a>
+        </div>
+      <script type='text/javascript'>
+        Kakao.init('52a207250c3cb627110b9db18df5d3e1');
+        Kakao.Link.createCustomButton({
+          container: '#kakao-link-btn',
+          templateId: 14674,
+          templateArgs: {
+            'title': 'DAMG CREATOR Acceleration',
+            'description': '함께 하실래요?'
+          }
+        });
+      </script>
+    </div>
 
     <div><br>
       <img src="http://img.cgv.co.kr/WebApp/images/event/1902/1902m_together_watch/img_6.jpg" width="100%">
