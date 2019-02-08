@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
+    <div class="container" style="padding-top: 20px;">
+      <button type="button" name="button" id="button" style="background-color: #f1f1f1; border-radius: 5px; margin: auto; display: block;">SHARE!</button>
+      <script type="text/javascript">
+        document.getElementById("button").addEventListener("click", copyurl) ;
+          function copyurl() {
+            var copyText = document.getElementById("share_url");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+          }
+      </script>
+    </div>
+
+
+
 
     <div class="share" style="padding-top: 40px; margin: auto; text-align: center;">
         <span style="font-size: 8vw">공유하기</span><button id='copy_url' onclick="myFunction()" style="border: none; background-color: white; display: block; margin-left: auto; margin-right: auto; width: 10vw;"><img src="share-flat.png" width="100%"></button>
