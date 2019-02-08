@@ -30,56 +30,28 @@
         <script src="slide.js" type="text/javascript"></script>
       </div>
     </article>
-    <a id="kakao-link-btn" href="javascript:;">
-    <img src="kakao.png"/>
-    </a>
-    <script type='text/javascript'>
-      //<![CDATA[
-        // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-        Kakao.init('52a207250c3cb627110b9db18df5d3e1');
-        // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-        Kakao.Link.createCustomButton({
-          container: '#kakao-link-btn',
-          templateId: 14674,
-          templateArgs: {
-            'title': 'DAMG CREATOR Acceleration',
-            'description': '함께 하실래요?'
-        });
-      //]]>
-    </script>
 
+    <div style="margin:0 auto; display:block; padding-top:20px;">
+      <a id="kakao-link-btn" href="javascript:;">
+      <img src="kakao.png" style="width: 6vw; margin:0 auto; display:block;"/>
+      </a>
+        <script type='text/javascript'>
+          //<![CDATA[
+            // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+            Kakao.init('52a207250c3cb627110b9db18df5d3e1');
+            // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+            Kakao.Link.createCustomButton({
+              container: '#kakao-link-btn',
+              templateId: 14674,
+              templateArgs: {
+                'title': 'DAMG CREATOR Acceleration',
+                'description': '함께 하실래요?'
+              }
+            });
+          //]]>
+        </script>
+      </div>
 
-
-
-
-
-    <div class="share" style="padding-top: 40px; margin: auto; text-align: center;">
-      <script type='text/javascript'>
-        var firstImg=$(".imageblock:first-of-type img"); var contents="";
-        if(firstImg.attr("src")){ var firstImgSrc=firstImg.attr("src");
-        var firstImgRatio = parseInt(firstImg.css("height"))/parseInt(firstImg.css("width"));
-        if (firstImgRatio <=0.27) var firstImgRatio=0.27; }else{var firstImgSrc=location.origin+"/favicon.ico";
-        var firstImgRatio=1}
-
-        Kakao.init('52a207250c3cb627110b9db18df5d3e1');
-        Kakao.Link.createTalkLinkButton({
-        container: '#kakao-link-btn',
-        label: '[##_page_title_##]',
-        image: {src: firstImgSrc,
-        width: '300',
-        height: parseInt(300*firstImgRatio)},
-        webButton: {
-        text: '블로그 방문하기',
-        url: document.URL}});
-      </script>
-      <a id="kakao-link-btn" href="javascript:;"class="ico_skin link_kt">카카오톡</a>
-    </div>
-
-
-
-
-    <div>
-    </div>
     <div><br>
       <img src="http://img.cgv.co.kr/WebApp/images/event/1902/1902m_together_watch/img_6.jpg" width="100%">
     </div>
