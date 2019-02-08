@@ -5,7 +5,7 @@
     <title>동아미디어그룹 DAMG Creator Acceleration test</title>
     <link rel="stylesheet" style="text/css" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="http://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
   </head>
   <body>
     <header>
@@ -39,14 +39,6 @@
     <img src="kakao.png">
     </a>
     <script type='text/javascript'>
-        var firstImg=$(".imageblock:first-of-type img");
-        var contents="";
-        if(firstImg.attr("src")){
-          var firstImgSrc=firstImg.attr("src");
-          var firstImgRatio = parseInt(firstImg.css("height"))/parseInt(firstImg.css("width"));
-          if (firstImgRatio <=0.27) var firstImgRatio=0.27;
-        }else{var firstImgSrc=location.origin+"/favicon.ico";var firstImgRatio=1}
-
         Kakao.init('52a207250c3cb627110b9db18df5d3e1');
         // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
         Kakao.Link.createDefaultButton({
