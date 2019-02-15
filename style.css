@@ -63,7 +63,7 @@ header .top {
 
 .scroll-container{
   overflow-x:scroll;
-  scroll-snap-type:A B
+  scroll-snap-type:A B;
 }
 
 .top {
