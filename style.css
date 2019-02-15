@@ -70,3 +70,15 @@ header .top {
   list-style: none;
   position: fixed;
   width: 100%;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+footer {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 5px;
+  background-color: #413936;
+}
