@@ -39,13 +39,13 @@ header .top {
 }
 
 .imgs {
-  height: 10vw;
+  height: 9vw;
   margin:0 auto;
   display:block;
 }
 
 .img {
-  height: 7vw;
+  height: 6vw;
   margin:0 auto;
   display:block;
   margin-top: 20px;
@@ -57,3 +57,16 @@ header .top {
   margin-right: 44%;
   margin-top: 10px;
 }
+
+/*nav bar 상단고정*/
+
+.scroll-container{
+  overflow-x:scroll;
+  scroll-snap-type:A B
+}
+
+.top {
+  margin: 0; padding: 0;
+  list-style: none;
+  position: fixed;
+  width: 100%;
