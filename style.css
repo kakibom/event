@@ -84,3 +84,27 @@ footer {
   background-color: #413936;
   color: C1BEB9;
 }
+
+
+/*포스터 슬라이드 스와이프로 바꾸기*/
+
+ul{
+list-style: none outside none;
+      margin: 0 auto;
+      display: block;
+}
+  .demo .item{
+      margin-bottom: 60px;
+  }
+.content-slider li{
+  background-color: #ed3020;
+  text-align: center;
+  color: #FFF;
+}
+.content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+}
+.demo{
+width: 100%;
+}

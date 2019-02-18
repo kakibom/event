@@ -30,3 +30,23 @@ function carousel() {
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
+
+$(document).ready(function() {
+$("#content-slider").lightSlider({
+         loop:true,
+         auto:true,
+         keyPress:true
+     });
+     $('#image-gallery').lightSlider({
+         gallery:true,
+         item:1,
+         thumbItem:9,
+         slideMargin: 0,
+         speed:1000,
+         auto:true,
+         loop:true,
+         onSliderLoad: function() {
+             $('#image-gallery').removeClass('cS-hidden');
+         }
+     });
+});
