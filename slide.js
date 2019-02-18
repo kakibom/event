@@ -42,7 +42,7 @@ $("#content-slider").lightSlider({
          item:1,
          thumbItem:9,
          slideMargin: 0,
-         speed:1000,
+         speed:3000,
          auto:true,
          loop:true,
          onSliderLoad: function() {
