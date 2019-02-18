@@ -40,9 +40,9 @@ $("#content-slider").lightSlider({
      $('#image-gallery').lightSlider({
          gallery:true,
          item:1,
-         thumbItem:9,
+         thumbItem:5,
          slideMargin: 0,
-         speed:3000,
+         speed:1000,
          auto:true,
          loop:true,
          onSliderLoad: function() {
