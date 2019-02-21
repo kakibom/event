@@ -73,6 +73,12 @@ header .top {
   width: 100%;
 }
 
+.download {
+  position: relative;
+  height: 8vw;
+  bottom: 10%;
+}
+
 .navbar {
   display: inline-block;
 }
